@@ -1,9 +1,5 @@
 source 'http://rubygems.org'
-ruby "2.5.1"
-gem 'sinatra'
-gem 'json'
-gem 'rake'
-gem 'rack-test'
+gem 'puma'
 
 group :test do
   gem 'rspec'
